@@ -1,0 +1,35 @@
+{
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": true,
+      "plaintext": false,
+      "markdown": false,
+      "rust": true
+    },
+    "git.postCommitCommand": "sync",
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+    },
+    "jupyter.askForKernelRestart": false,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+    ],
+    "settingsSync.keybindingsPerPlatform": false,
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "window.zoomLevel": 1,
+    "editor.cursorSurroundingLines": 200,
+    "editor.lineNumbers": "on",
+    "editor.glyphMargin": true,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "editor.rulers": 120,
+    "git.terminalAuthentication": false,
+    "githubPullRequests.pullBranch": "never",
+    "workbench.editor.splitInGroupLayout": "vertical",
+    "workbench.colorTheme": "GitHub Dark",
+}
